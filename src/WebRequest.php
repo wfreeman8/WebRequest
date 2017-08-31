@@ -510,7 +510,7 @@ class WebRequest {
       case 'requestHeaders': case 'requestHeader':
         return $this->requestHeaders;
       case 'httpCode':
-        return $this->responseArray['httpCode'];
+        return $this->responseArray['httpcode'];
       case 'cookies':
         return $this->cookieContainer;
     }
